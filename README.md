@@ -11,13 +11,15 @@ The main goal is to track down cyber threats, analyze malware behavior, detect u
 
 The challenges and write-ups are organized by category and threat type:
 
-### 🦠 1. Malware Traffic Analysis
+### 🦠 1. Malware Analysis
 Detailed investigations of network traffic infected by various malware strains, ransomware, and Trojan droppers.
-* [Investigation 01 - [Challenge Name]](./Malware-Analysis/Trojan-Traffic-XYZ/) * *More coming soon...*
+* [Investigation 01 - First PCAP Analysis](./Malware-Analysis/First-PCAP.md)
+* *More coming soon...*
 
-### 🔨 2. Network Attacks & Brute Force
+### 🔨 2. Brute Force
 Analysis of malicious activities such as SSH/FTP brute-forcing, port scanning, and DDoS attacks.
-* [Investigation 01 - SSH Brute Force Detection](./Brute-Force-Attacks/SSH-BruteForce/) * *More coming soon...*
+* [Investigation 01 - Brute Force Traffic](./BruteForce/README.md)
+* *More coming soon...*
 
 ---
 
