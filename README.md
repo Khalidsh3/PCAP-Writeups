@@ -36,5 +36,5 @@ Through these labs, I utilize industry-standard tools and techniques:
 ## 👤 Connect with Me
 
 If you have any questions or want to discuss network security, feel free to reach out!
-* **LinkedIn:** [Your LinkedIn Profile URL]
-* **Twitter/X:** [Your Twitter Profile URL]
+* **LinkedIn:** [www.linkedin.com/in/khalid-shawahnh-46a847380]
+
