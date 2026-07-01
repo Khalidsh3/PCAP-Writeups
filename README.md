@@ -16,9 +16,9 @@ Detailed investigations of network traffic infected by various malware strains, 
 * [Investigation 01 - First PCAP Analysis](./Malware-Analysis/First-PCAP.md)
 * *More coming soon...*
 
-### 🔨 2. Brute Force
-Analysis of malicious activities such as SSH/FTP brute-forcing, port scanning, and DDoS attacks.
-* [Investigation 01 - Brute Force Traffic](./BruteForce/README.md)
+### 🔨 2. RAT
+Analysis of malicious activities such as RAT, port scanning, and DDoS attacks.
+* [Investigation 01 - Brute Force Traffic](./RAT/First-PCAP.md)
 * *More coming soon...*
 
 ---
