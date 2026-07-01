@@ -37,6 +37,17 @@ The analysis successfully answered the following standard incident response ques
 ## 🔍 Forensic Analysis & Wireshark Methodology
 
 ### Step 1: Identifying the Infected Internal Host
-To isolate the local host communicating with the malicious Command and Control (C2) server, apply the following filter:
+Since the PCAP file retrive from a infected windows machine we can tell by that is the infected host is 10.2.28.88., OR we apply the following filter:
 ```text
-ip.addr == 45.131.214.85 and tcp.port == 443
+(http.request or tls.handshake.type eq 1) and !(ssdp) and ip.addr eq 45.131.214.85
+```
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/88b6f189-efde-4cb1-90be-20faec159c19" />
+
+
+---
+
+### Step 2: extractin the MAC address :
+We can use the filter "nbns" as always to find the windows host name and the MAC address as shown in the picture.
+
+
+
