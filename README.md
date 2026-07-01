@@ -18,7 +18,7 @@ Detailed investigations of network traffic infected by various malware strains, 
 
 ### 🔨 2. RAT
 Analysis of malicious activities such as RAT, port scanning, and DDoS attacks.
-* [Investigation 01 - Brute Force Traffic](./RAT/First-PCAP.md)
+* [Investigation 01 - RAT Traffic](./RAT/First-PCAP.md)
 * *More coming soon...*
 
 ---
