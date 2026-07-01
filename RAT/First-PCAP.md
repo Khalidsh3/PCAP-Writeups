@@ -55,6 +55,15 @@ We can use the filter "nbns" as always to find the windows host name and the MAC
 ### Step 3: Searching for user account name :
 
 after that we used the filter "Kerberos.CNameString" and select any of the shown packets then scroll down in details to find something called (CNameString) and click it and we have found the user account name for the infected Windows client which is (brolf).
+![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/a32e27e42520041c1ebe2c0156d744b7f8e24fdc/images/RAT-images/First-2.png)
+
+---
+
+### Step 4: Searching for the FULL user account name :
+
+Now we have the user account name, and we can tell by seeing it that its like a first initial last name value, b for the first initial and rolf for the last name and we can search the packet details for Rolf by using "Find Packet" function ,and check the case-sensitive and we found the full name of user account which is (Becka Rolf).
+
+
 
 
 
