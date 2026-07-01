@@ -62,7 +62,10 @@ after that we used the filter "Kerberos.CNameString" and select any of the shown
 ### Step 4: Searching for the FULL user account name :
 
 Now we have the user account name, and we can tell by seeing it that its like a first initial last name value, b for the first initial and rolf for the last name and we can search the packet details for Rolf by using "Find Packet" function ,and check the case-sensitive and we found the full name of user account which is (Becka Rolf).
+![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/b6acb011c82771cffd1fd3dbd65d7166c315c02a/images/RAT-images/First-3.png)
 
+---
+# THINKS YOU FOR YOUR TIME - BY KHALID SHAWAHNH
 
 
 
