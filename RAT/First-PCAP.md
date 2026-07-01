@@ -29,8 +29,8 @@ The analysis successfully answered the following standard incident response ques
 | **1. What is the IP address of the infected client?** | `[10.2.28.88]` |
 | **2. What is the MAC address of the infected client?** | `[00:19:d1:b2:4d:ad]` |
 | **3. What is the host name of the infected client?** | `[DESKTOP-TEYQ2NR]` |
-| **4. What is the user account name?** | `[Insert_Username_Here]` |
-| **5. What is the full name of the user?** | `[brolf]` |
+| **4. What is the user account name?** | `[brolf]` |
+| **5. What is the full name of the user?** | `[Becka Rolf]` |
 
 ---
 
