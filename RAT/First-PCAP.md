@@ -50,5 +50,11 @@ Since the PCAP file retrive from a infected windows machine we can tell by that 
 We can use the filter "nbns" as always to find the windows host name and the MAC address as shown in the picture.
 ![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/7b8668e9b6ec3b03d1be0a71973612af8b5d8eec/images/RAT-images/First-1.png)
 
+---
+
+### Step 3: Searching for user account name :
+
+after that we used the filter "Kerberos.CNameString" and select any of the shown packets then scroll down in details to find something called (CNameString) and click it and we have found the user account name for the infected Windows client which is (brolf).
+
 
 
