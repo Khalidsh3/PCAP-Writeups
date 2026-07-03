@@ -14,6 +14,7 @@ The challenges and write-ups are organized by category and threat type:
 ### 🦠 1. Malware Analysis
 Detailed investigations of network traffic infected by various malware strains, ransomware, and Trojan droppers.
 * [Investigation 01 - First PCAP Analysis](./Malware-Analysis/First-PCAP.md)
+* * [Investigation 02 - Sec PCAP Analysis](./Malware-Analysis/Sec-PCAP.md)
 * *More coming soon...*
 
 ### 🔨 2. RAT
