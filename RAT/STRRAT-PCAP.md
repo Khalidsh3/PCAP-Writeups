@@ -60,7 +60,7 @@ To legally tie the compromise to an internal threat actor or human asset, Active
 * Filtering for user authentication reveals the account handle name as **`ccollier`**.
 * By examining SAMR/LDAP directory parameters (`samr.samr_UserInfo21.full_name`), the exact identity database maps out the user's full name as **`Clark Collier`**, as verified in the **image below**.
 
-*(Insert image4.png here)*
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/0988f949679f7b96579958754b4ae8c95ee1570e/images/RAT-images/image4.png)*
 
 ---
 
@@ -70,7 +70,7 @@ Following the TCP stream for the traffic targeting port **12132** (specifically 
 
 As captured in the **image below**, the malware maintains a persistent connection heartbeat by sending continuous `ping\|STRRAT...` status bursts. The strings explicitly leak the host configuration details, indicating a Windows 11 Pro 64-bit platform protected by Windows Defender, alongside its deployment signature (`1BE8292C`).
 
-*(Insert image2.png here)*
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/0988f949679f7b96579958754b4ae8c95ee1570e/images/RAT-images/image2.png)*
 
 ---
 
