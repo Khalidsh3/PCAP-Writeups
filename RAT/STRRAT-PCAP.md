@@ -34,6 +34,16 @@ The forensic analysis successfully resolved the core incident response questions
 
 ---
 
+## 🚨 Indicators of Compromise (IoCs)
+
+### 💻 Network Connections (Infrastructure Logs)
+* `141.98.10.69` over TCP port `12132` (Active STRRAT C2 Server Node)
+* `208.95.112.1` over TCP port `80` (`ip-api.com` IP Reconnaissance)
+* `github.com` / `objects.githubusercontent.com` over Port `443` (Suspicious Component Fetching)
+* `repo1.maven.org` over Port `443` (Dependency Repository Abuse)
+
+---
+
 ## 🔍 Forensic Analysis & Wireshark Methodology
 
 ### Step 1: Discovering the Malicious & Suspicious Traffic Links
@@ -74,15 +84,6 @@ As captured in the **image below**, the malware maintains a persistent connectio
 
 ---
 
-## 🚨 Indicators of Compromise (IoCs)
-
-### 💻 Network Connections (Infrastructure Logs)
-* `141.98.10.69` over TCP port `12132` (Active STRRAT C2 Server Node)
-* `208.95.112.1` over TCP port `80` (`ip-api.com` IP Reconnaissance)
-* `github.com` / `objects.githubusercontent.com` over Port `443` (Suspicious Component Fetching)
-* `repo1.maven.org` over Port `443` (Dependency Repository Abuse)
-
----
 
 ## 🛠️ Remediation Blueprints
 
