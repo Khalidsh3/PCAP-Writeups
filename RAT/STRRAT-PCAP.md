@@ -43,14 +43,14 @@ To isolate suspicious connections bypassing standard baseline web protocols, a s
 ```
 As shown in the **image below**, this filter catches the infected host (`172.16.1.66`) pulling data from GitHub infrastructure and Apache Maven repositories (`repo1.maven.org`), alongside a direct external IP check to `ip-api.com` via an unencrypted `HTTP GET /json/` request. Crucially, it isolates an outbound TCP SYN handshake targeting an unusual remote port (**12132**).
 
-*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/b4738ec5444475f7450119c7606273fd725fb7f8/images/RAT-images/image1.png)*
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/3300ae8d7d334e1ccab38e0d6da4068e0ff03a62/images/RAT-images/STRRAT1.png)*
 
 ---
 
 ### Step 2: Resolving Host Name via NetBIOS Service
 By filtering for NetBIOS Name Service (`nbns`) traffic, the exact host naming registration queries coming out of the workstation were analyzed. Frame 30 explicitly maps out the workstation source identity as **`DESKTOP-SKBR25F`**, as detailed in the **image below**.
 
-**
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/3300ae8d7d334e1ccab38e0d6da4068e0ff03a62/images/RAT-images/STRRAT3.png)*
 
 ---
 
@@ -60,7 +60,7 @@ To legally tie the compromise to an internal threat actor or human asset, Active
 * Filtering for user authentication reveals the account handle name as **`ccollier`**.
 * By examining SAMR/LDAP directory parameters (`samr.samr_UserInfo21.full_name`), the exact identity database maps out the user's full name as **`Clark Collier`**, as verified in the **image below**.
 
-*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/0988f949679f7b96579958754b4ae8c95ee1570e/images/RAT-images/image4.png)*
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/3300ae8d7d334e1ccab38e0d6da4068e0ff03a62/images/RAT-images/STRRAT4.png)*
 
 ---
 
@@ -70,7 +70,7 @@ Following the TCP stream for the traffic targeting port **12132** (specifically 
 
 As captured in the **image below**, the malware maintains a persistent connection heartbeat by sending continuous `ping\|STRRAT...` status bursts. The strings explicitly leak the host configuration details, indicating a Windows 11 Pro 64-bit platform protected by Windows Defender, alongside its deployment signature (`1BE8292C`).
 
-*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/0988f949679f7b96579958754b4ae8c95ee1570e/images/RAT-images/image2.png)*
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/3300ae8d7d334e1ccab38e0d6da4068e0ff03a62/images/RAT-images/STRRAT2.png)*
 
 ---
 
