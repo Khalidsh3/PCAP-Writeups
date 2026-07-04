@@ -43,14 +43,14 @@ To isolate suspicious connections bypassing standard baseline web protocols, a s
 ```
 As shown in the **image below**, this filter catches the infected host (`172.16.1.66`) pulling data from GitHub infrastructure and Apache Maven repositories (`repo1.maven.org`), alongside a direct external IP check to `ip-api.com` via an unencrypted `HTTP GET /json/` request. Crucially, it isolates an outbound TCP SYN handshake targeting an unusual remote port (**12132**).
 
-*(Insert image1.png here)*
+*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/b4738ec5444475f7450119c7606273fd725fb7f8/images/RAT-images/image1.png)*
 
 ---
 
 ### Step 2: Resolving Host Name via NetBIOS Service
 By filtering for NetBIOS Name Service (`nbns`) traffic, the exact host naming registration queries coming out of the workstation were analyzed. Frame 30 explicitly maps out the workstation source identity as **`DESKTOP-SKBR25F`**, as detailed in the **image below**.
 
-*![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/b4738ec5444475f7450119c7606273fd725fb7f8/images/RAT-images/image1.png)*
+**
 
 ---
 
