@@ -65,6 +65,7 @@ Now we have the user account name, and we can tell by seeing it that its like a 
 ![image alt](https://github.com/Khalidsh3/PCAP-Writeups/blob/b6acb011c82771cffd1fd3dbd65d7166c315c02a/images/RAT-images/First-3.png)
 
 ---
+# NOTE THIS EXERCISE FROM MALWARE TRAFFIC ANALYSIS - EASY123
 # THINKS YOU FOR YOUR TIME - BY KHALID SHAWAHNH
 
 
